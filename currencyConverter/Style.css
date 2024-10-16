@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    height: 100vh;
+}
+
+.container
+{
+    
+    height: 30vh;
+    background-color: #4fc4cf;
+    display: space-between;
+    padding: 2rem;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.4);
+        /* Add shadow on hover */
+}
+
+.container h1 
+{
+    color: #181818;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+form .amount
+{
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding-bottom: 0rem;
+    font-weight: bold;
+    display: flex;
+    color: #2e2e2e;
+    
+    
+}
+.form .amount input
+{
+    margin-left: 0.5rem;
+    padding: 0.3rem;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+}
+
+.selection
+{
+    margin-top: 0rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+} 
+.selection .image
+{
+ max-width: 2rem;
+ padding: 0.25rem;
+}
+
+
+.selection select
+{   
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    justify-content: center;
+
+}
+
+.selection i 
+{
+    font-size: 2rem;
+    color: #181818;
+    padding: 2rem;
+}
+
+
+
+select:hover
+{
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Add shadow on hover */
+}
+
+.message h3
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.container button
+{
+   width:100%; 
+
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+    padding: 0.75rem;
+   
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+   
+}
+
+.container button:hover
+{
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+        /* Add shadow on hover */
+    cursor: pointer;
+}
+
+
